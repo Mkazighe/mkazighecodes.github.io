@@ -3,46 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Mluka Perice Mkazighe</title>
-    <style>
-      body{
-        font-family: Arial, sans-serif;
-        background: #f9f9f9;
-        color: #333;
-        margin: 0;
-        padding: 0;
-      }
-      header{
-        background: #24292f;
-        color: white;
-        text-align: center;
-        padding: 2rem 0;
-      }
-      section{
-        padding: 2rem;
-        max-width: 900px;
-        margin: auto;
-      }
-      h1,h2{
-        color: #24292f;
-      }
-      .project{
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        margin: 1rem 0;
-        padding: 1rem;
-      }
-      footer{
-        background:#24292f;
-        color: white;
-        text-align: center;
-        padding: 1rem;
-      }       
-    </style>
+    <title>My Portfolio - Home</title>
+    <meta name="description" content="Homepage of my Portfolio: picture, about me and a link to documents/skills page">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>Hello, I'm Mluka Perice Mkazighe</h1>
-       </header>
+    <main class="container" role="main">
+      <section class="left" aria-labeledby="Your Name">
+        <figure class="avatar">
+          <img src="Your photo.jpg" alt="Portrait photo of your name"/>
+        </figure>
+        <div style="text-align: center">
+          <h2 id="Your-name" class="name">Mluka Perice</h2>
+          <p class="role">FRONTEND DEVELOPER. WEB DESIGNER</p>
+        </div>
+        <div class="meta">
+          <div >Location:Mombasa, Kenya</div>
+          <div>Available for freelance & Part-time</div>
+        </div>
+      </section>
+
+      <section class="right">
+        <h1> About Me</</h1>
+        <div class="about-card">
+          <p>Hello...</p>
+        </div>
+        <div class="buttons" role="navigation">
+          <a class="btn btn-primary" href="portfolio.html">
+            see my documents, skills and experience</a>
+          <a class="btn btn-ghost" href="resume.pdf" download> Download resume(PDF)</a>
+        </div>
+      </section>
+    </main>
   </body>
+</html>
